@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --color-background: #1c1c1c; /* Preto carvão */
+  --color-secondary: #2f2f2f; /* Cinza antracito */
+  --color-highlight: #0d3b66; /* Azul petróleo */
+  --color-detail: #720026; /* Bordô escuro */
+  --color-text: #e0e0e0; /* Branco gelo */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-highlight);
+  display: flex;
+  justify-content: center;
+  color: var(--color-text);
+  position: relative;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.175rem;
+}
+
+span,
+li,
+a {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-color: #72002613;
+  height: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.point {
+  color: yellow;
+  font-family: Arial, sans-serif;
+}
+
+.projeto-code img {
+  border-radius: 5px;
+}
+
+.tecnologias_container {
+  padding: 20px;
+  margin-top: 6rem;
+}
+
+.tecnologias_container h1 {
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  padding: 12px 18px;
+  align-items: center;
+  border-radius: 0px 0px 4px 4px;
+  position: sticky;
+}
+
+header img {
+  border-radius: 40%;
+  cursor: pointer;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2.4em;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3rem;
+}
+
+header nav ul li a {
+  color: var(--color-text);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+header nav ul li a:hover {
+  font-size: 1.175rem;
+}

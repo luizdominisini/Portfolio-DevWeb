@@ -1,0 +1,38 @@
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.conteudo-sobre {
+  text-align: end;
+  padding: 10px;
+  align-self: center;
+}
+.conteudo-sobre h1 {
+  margin-bottom: 1rem;
+}
+
+.imagem-sobre img {
+  border-radius: 12px;
+  animation: piscar 5s infinite;
+}
+
+@keyframes piscar {
+  0% {
+    box-shadow: 6px 6px 40px rgb(152, 162, 255);
+  }
+  25% {
+    box-shadow: 6px 6px 40px rgb(161, 233, 255);
+  }
+  50% {
+    box-shadow: 6px 6px 40px rgb(148, 248, 255);
+  }
+  75% {
+    box-shadow: 6px 6px 40px rgb(101, 168, 255);
+  }
+  100% {
+    box-shadow: 6px 6px 40px rgb(193, 253, 255);
+  }
+}

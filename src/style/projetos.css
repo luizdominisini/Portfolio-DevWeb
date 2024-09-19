@@ -1,0 +1,44 @@
+.projetos {
+  margin-top: 4rem;
+}
+
+.projetos-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.conteudo-projeto {
+  padding: 20px;
+  max-width: 600px;
+}
+
+.ecommerce img {
+  border-radius: 5px;
+  box-shadow: 4px 4px 15px #47427e;
+}
+
+.vendas img {
+  border-radius: 5px;
+  box-shadow: 4px 4px 15px #c9b859;
+}
+
+.short img {
+  border-radius: 5px;
+  box-shadow: 4px 4px 15px #868686;
+}
+
+.nest img {
+  border-radius: 5px;
+  box-shadow: 4px 4px 15px #910030;
+}
+
+.projeto-code img {
+  transition: 0.5s;
+}
+
+.projeto-code img:hover {
+  width: 210px;
+  height: 210px;
+}

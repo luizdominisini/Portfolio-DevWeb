@@ -1,0 +1,22 @@
+footer {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+footer ul {
+  margin-top: 2rem;
+  list-style: none;
+}
+
+footer ul li a{
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+footer ul li {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  gap: 8px;
+}
